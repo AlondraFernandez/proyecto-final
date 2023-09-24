@@ -35,6 +35,10 @@ header{
 .medida{
     height: 100vh;
 }
+.container-carrusel img{
+    max-height:300px ;
+    max-width: 3000px;
+}
 
 
 
