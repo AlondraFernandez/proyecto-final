@@ -33,12 +33,10 @@ header{
 
 }
 .medida{
-    height:100vh;
+    height: 100vh;
 }
-.d-blockw-100{
-    width: 500px;
-    height: 500px;
-}
+
+
 
 
 
@@ -99,7 +97,7 @@ h1{
     background-color: rgba(255, 174, 0, 0.897);
 }
 footer{
-    background-color: red;
+    background-color: brown;
     height: 100%;
     list-style: none;
 }
