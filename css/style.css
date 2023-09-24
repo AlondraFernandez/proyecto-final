@@ -33,12 +33,13 @@ header{
 
 }
 .medida{
-    height:100vh ;
+    height:100vh;
 }
 .d-blockw-100{
     width: 500px;
     height: 500px;
 }
+
 
 
 main{
@@ -63,8 +64,8 @@ main{
     transition: ease 1s;
 }
 .container-carrusel{
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
 }
 
 @keyframes efecto{
@@ -100,6 +101,7 @@ h1{
 footer{
     background-color: red;
     height: 100%;
+    list-style: none;
 }
 footer a{
     color: black;
@@ -149,7 +151,7 @@ img{
 width: 100%;
 height: 100vh;
 grid-template-columns: auto;
-grid-template-rows: 60px 1fr 60px;
+grid-template-rows: auto 1fr auto;
 grid-template-areas: 
 "header"
 "main"
@@ -161,7 +163,7 @@ grid-template-areas:
 width: 100%;
 height: 100vh;
 grid-template-columns: auto;
-grid-template-rows: 60px 1fr 60px;
+grid-template-rows: auto 1fr auto;
 grid-template-areas: 
 "header"
 "main"
